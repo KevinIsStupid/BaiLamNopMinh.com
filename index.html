@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trần Chí Kiên</title>
+</head>
+<style>
+    body {
+        background-color: aqua;
+    }
+    
+    #iqcheck {
+        background-color: white;
+        width: 500px;
+        height: 500px;
+        text-align: center;
+        font-size: 35px;
+        top: 0%;
+        padding-top: 50px;
+    }
+    
+    #vid {
+        visibility: hidden;
+    }
+</style>
+
+<body>
+    <video width="96px" height="54px" id="vid" autoplay>
+        <source src="Troll.mp4" type = "video/mp4">
+    </video>
+    <div id="iqcheck"><b>Kiểm tra IQ<br>
+            <p style="font-size: 60%;">Cho hàm số y=f(x)=x<sup style="font-size: 80%;">x</sub><br>
+            Tính f(4)
+            <br><br>
+            </p>
+            <label for="fname" style="font-size: 60%;">Trả lời:<label><input id="textbox" type="text" width="10" name="fname">
+            <button onclick="clicked()">Kiểm tra</button> 
+    </b></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
